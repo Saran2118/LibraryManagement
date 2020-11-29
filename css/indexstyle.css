@@ -1,0 +1,60 @@
+body{
+    background-image: url(/images/l1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#welcome .overlay{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(175, 15, 15, 0.13),rgba(0,0,0,0.));
+}
+.white{
+    color: rgba(255, 255, 255, 0.904);
+}
+.white-1{
+    color:rgba(245, 241, 241, 0.945);
+}
+.header{
+    font-family: 'Playfair Display', serif;
+}
+.sidebar-link{
+    transition:all .1s ease;
+}
+.sidebar-link:hover{
+    background-color:rgba(255, 255, 255, 0.904);
+    color: black;
+    border-radius: 7px;
+}
+.sidebar{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.bottom-border{
+    border-bottom: 1px solid #eee;
+}
+.sidebar .active{
+    background-color:#f44336;
+    border-radius: 7px;
+    box-shadow: 2px 5px #111;
+    transition: all .3s ease;
+}
+.sidebar .active:hover{
+    background-color:#f66436;
+    transform:translateY(-5px);
+}
+.formbox{
+    width: 250px;
+    height:200px;
+    position: relative;
+    background:transparent;
+    padding:5px;
+}
+.dark{
+    color:rgb(73, 73, 73);
+}

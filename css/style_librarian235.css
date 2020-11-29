@@ -1,0 +1,79 @@
+body{
+    background-image: url(/images/l2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#welcome .overlay{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(175, 15, 15, 0.13),rgba(0,0,0,0.));
+}
+.white{
+     color: rgba(114, 109, 109, 0.904);
+}
+.white-1{
+    color:white;
+}
+.header{
+    font-family: 'Playfair Display', serif;
+}
+.sidebar-link{
+    transition:all .1s ease;
+}
+.sidebar-link:hover{
+    background-color:rgba(68, 68, 68, 0.473);
+    color: white !important;
+    border-radius: 7px;
+}
+
+.bottom-border{
+    border-bottom: 1px solid #eee;
+}
+
+.formbox{
+    width: 320px;
+    height:350px;
+    position: relative;
+    background:transparent;
+    padding:5px;
+}
+.dark{
+    color:rgb(73, 73, 73);
+}
+.inputgroup{
+    top:100px;
+    position: absolute;
+    width: 280px;
+    transition:.5s;
+}
+
+.inputfield{
+    text-decoration: black;
+    font-weight: bold;
+    width:280px;
+    padding:0px 0 10px;
+    margin: 5px 15px 10px ;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(192, 188, 188);
+    border-top: none;
+    outline: none;
+    background: transparent;
+}
+.linkline{
+    color:rgb(73, 73, 73);
+}
+.submitbtn{    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 15px;
+    cursor: pointer;
+    display: block;
+    border: 1px solid #b3b3b3;
+    background-color:#b3b3b3 ;
+    border-style: none;
+    border-radius: 10px;
+}
